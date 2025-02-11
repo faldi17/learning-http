@@ -1,2 +1,2 @@
-# dea-vlog-assignment
-Menentukan saldo akhir dan hari saat ini
+# learning-http
+Belajar HTTP sebagai dasar dari bagaimana aplikasi web berfungsi
