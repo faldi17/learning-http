@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pengenalan HTTP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Pengenalan HTTP</h1>
@@ -11,6 +12,39 @@
         <li>HTTP singkatan dari Hypertext Transfer Protocol</li>
         <li>HTTP merupakan protokol untuk melakukan trasmisi hypermedia document, seperti HTML, CSS, JavaScript, Image, Audio, Video dan lain-lain</li>
         <li>HTTP awalnya di desain untuk komunikasi antara Web Browser dan Web Server, namun saat ini sering juga digunakan untuk kebutuhan lain</li>
+    </ul>
+
+    <h2>Client Server</h2>
+    <ul>
+        <li>HTTP mengikuti arsitektur client dan server</li>
+        <li>Client mengirimkan HTTP Request untuk meminta atau mengirimkan informasi ke server</li>
+        <li>Dan server membalasnya dengan HTTP Response dari HTTP Request yang diterima</li>
+        <img src="http-img.png" width="40%">
+    </ul>
+
+    <h2>Plain Language and Human Readable</h2>
+    <p>HTTP di desain menggunakan bahasa yang mudah di mengerti oleh bahasa manusia, seperti:</p>
+    <ul>
+        <li>GET</li>
+        <li>POST</li>
+        <li>PUT</li>
+        <li>DELETE</li>
+        <li>HEAD</li>
+        <li>OPTION</li>
+    </ul>
+
+    <h2>Stateless</h2>
+    <ul>
+        <li>HTTP merupakan protokol yang stateless</li>
+        <li>Artinya tiap HTTP Request merupakan request yang independen, tidak ada keterkaitan atau hubungan dengan HTTP Request sebelum atau setelahnya</li>
+        <li>Hal ini dilakukan agar HTTP Request secara bebas tanpa ada aturan harus dimulai dari mana</li>
+    </ul>
+
+    <h2>Session</h2>
+    <ul>
+        <li>Jika HTTP merupakan protokol yang stateless, bagaimana dengan session? Misal client harus login dulu sebelum berinteraksi</li>
+        <li>Untuk menangani permasalahan seperti ini, HTTP memiliki fitur yang bernama HTTP Cookie</li>
+        <li>HTTP Cookie memaksa client menyimpan informasi yang diberikan oleh server</li>
     </ul>
 </body>
 </html>
