@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTTP Version</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTTP Version</h1>
+    <ul>
+        <li>Spesifikasi HTTP selalu diperbaharui</li>
+        <li>Saat ini, kebanyakan web berjalan di HTTP/1.1 atau HTTP/2</li>
+        <li>HTTP2 mulai hadir sekitar tahun 2015, dan saat ini sudah banyak di adopsi oleh semua Web di Dunia</li>
+    </ul>
+
+    <h2>HTTP/1.1 vs HTTP/2</h2>
+    <ul>
+        <li>Saat ini HTTP/1.1 merupakan fallback protocol, dimana Web Browser secara default akan melakukan request menggunakan HTTP/2, jika Web Server tidak mendukung, maka Web Browser akan melakukan fallback ke protocol HTTP/1.1</li>
+        <li>Secara garis besar, spesifikasi HTTP/2 sama dengan HTTP/1.1, yang membedakan adalah pada HTTP/2, HTTP Request yang dikirim dalam bentuk teks, secara otomatis menjadi binary, sehingga lebih cepat dibandingkan HTTP/1.1</li>
+        <li>Selain itu HTTP/2, menggunakan algoritma kompresi untuk memperkecil request dan medukung multiplexing, sehingga bisa mengirim beberapa request yang sama dalam satu connection yang sama</li>
+        <li>Dari sisi pembuatan aplikasi, tidak ada perbedaan, semua ini biasanya sudah di urus secara otomatis oleh Web Server yang kita gunakan</li>
+    </ul>
+
+    <h2>HTTPS</h2>
+    <ul>
+        <li>Secara default, HTTP tidaklah aman</li>
+        <li>HTTPS merupakan HTTP dengan enkripsi</li>
+        <li>Perbedaan HTTP dan HTTPS adalah, pada HTTPS menggunakan SSL (Secure Sockets Layer) untuk melakukan enkripsi HTTP Request dan HTTP Response</li>
+        <li>Hasilnya HTTPS jauh lebih aman dibanding dengan HTTP biasa</li>
+        <li>Web yang menggunakan HTTPS akan menggunakan https:// pada URL-nya, dan yang hanya menggunakan HTTP tanpa enkripsi akan menggunakan http://</li>
+    </ul>
+</body>
+</html>
