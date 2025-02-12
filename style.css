@@ -3,4 +3,9 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #2f9b76;
 }
