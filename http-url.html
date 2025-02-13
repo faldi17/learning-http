@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTTP URL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTTP URL</h1>
+    <ul>
+        <li>URL singkatan dari Uniform Resource Locator</li>
+        <li>URL merupakan alamat dari sebuah resource di Web</li>
+        <li>URL wajib kita gunakan untuk menuju informasi resource yang akan kita tuju dalam Web</li>
+        <li>Tanpa URL, Client atau Server tidak akan mengerti informasi yang ingin kita cari</li>
+    </ul>
+
+    <h2>Anatomi URL</h2>
+    <ul>
+        <li>URL terdiri dari beberapa bagian</li>
+        <li>Beberapa bagian wajib ada, beberapa bagian tidak wajib ada</li>
+        <li>
+            Berikut adalah contoh URL :
+            <ul>
+                <li><a href="https://www.programmerzamannow.com/" target="_blank">https://www.programmerzamannow.com/</a></li>
+                <li><a href="https://kelas.programmerzamannow.com/courses" target="_blank">https://kelas.programmerzamannow.com/courses</a></li>
+                <li><a href="https://www.programmerzamannow.com/?search=java" target="_blank">https://www.programmerzamannow.com/?search=java</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Schema</h2>
+    <ul>
+        <li>Bagian awal di URL adalah schema yang mengindikasikan protocol yang perlu digunakan oleh Client</li>
+        <li>Biasanya dalam URL website, schema protocol tersebut adalah http dan https</li>
+        <img src="images/scheme.png" width="700px">
+    </ul>
+
+    <h2>Authority</h2>
+    <ul>
+        <li>Selanjutnya, dipisahkan dengan tanda // di ikuti dengan authority, yang terdiri dari nama domain dan nomor port yang dipisah menggunakan titik dua</li>
+        <li>Nama domain nanti akan ditanyakan ke DNS untuk mendapatkan alamat IP-nya</li>
+        <li>Namun kita juga bisa langsung menggunakan IP jika memang website tersebut tidak memiliki nama domain</li>
+        <li>Nomor port tidak wajib, tanpa nomor port, secara default bernilai 80 untuk http, dan 443 untuk https</li> <br>
+        <img src="images/authority.png" width="700px">
+    </ul>
+
+    <a href="http-method.html">Back</a>
+</body>
+</html>
