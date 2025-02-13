@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTTP Method</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTTP Method</h1>
+    <ul>
+        <li>Dalam HTTP Request, hal yang pertama kita perlu tentukan adalah HTTP Method</li>
+        <li>HTTP Method mirip seperti kategori request</li>
+        <li>Ada banyak HTTP Method yang dapat kita gunakan ketika membuat HTTP Request, dan kita bisa sesuaikan sesuai dengan kebutuhan yang kita inginkan</li>
+    </ul>
+
+    <h2>HTTP Message</h2>
+    <img src="images/http-msg.png" width="700px">
+
+    <h2>Jenis HTTP Method</h2>
+    <ul>
+        <li>GET method digunakan untuk melakukan request data. Request menggunakan GET hanya untuk menerima data, bukan mengirim data</li>
+        <li>HEAD method digunakan sama seperti GET, tapi tanpa membutuhkan response body</li>
+        <li>POST method digunakan untuk mengirim data ke Server, biasa POST digunakan untuk mengirim data baru sehingga biasanya memiliki request body</li>
+        <li>PUT method digunakan untuk mengganti semua data yang terdapat di Server dengan data baru yang dikirim di request</li>
+        <li>DELETE method digunakan untuk menghapus data</li>
+        <li>PATCH method digunakan untuk mengubah sebagian data</li>
+        <li>OPTIONS method digunakan untuk mendeskripsikan opsi komunikasi yang tersedia</li>
+        <li>TRACE method digunakan untuk request method debugging. Response TRACE method akan mengembalikan seluruh informasi yang dikirim oleh Client. Saat membuat web, sangat tidak di rekomendasikan mengaktifkan TRACE method ketika sudah live di production</li>
+    </ul>
+</body>
+</html>
